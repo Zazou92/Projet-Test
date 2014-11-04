@@ -14,5 +14,12 @@ h2{
     font-size: 16px;
 }
 
-p{ text-align: center
+p{ text-align: center}
+
+.image-center {
+    width:50%;
+    text-align:center;
+}
+
+
     
