@@ -1,6 +1,43 @@
 body{
-    background-image: url(Images/sandpaper.png)
+    background-image: url(Images/sandpaper.png);
+    margin: 0;
+        
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: grey;
+    color: white;
+    text-decoration:none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: color 1s ease, transform 1s ease;
+}
+
+header li {
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+    
+}
+
+header li a:hover {
+    color:#FD3F92;
+    transform: scale(1.5);
+    
+}
+
 h1{
     color: #FD3F92;
     text-align: center;
@@ -18,12 +55,26 @@ h2{
 }
 
 p{ 
-    text-align: center
+    text-align: center;
+    font-family: sans-serif;
 }
 
 .image-center {
     text-align:center;
 }
+
+footer {
+    background-color: grey;
+    color: white;
+    text-decoration:none;
+}
+
+footer li {
+    display: inline-block;
+    width: 50%;
+    text-align: center; 
+}
+    
 
 
     
