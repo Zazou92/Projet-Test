@@ -1,5 +1,5 @@
 body{
-    background-color: #D3D3D3;
+    background-color: #dcdcdb;
     margin: 0;
         
 }
@@ -54,6 +54,9 @@ h2{
     font-size: 16px;
 }
 
+.formation {
+    text-align: center;}
+
 p{ 
     text-align: center;
     font-family: sans-serif;
@@ -67,6 +70,7 @@ footer {
     color: white;
     text-decoration:none;
     background-color: grey;
+    padding-bottom: 20px;
     
 }
 
@@ -76,6 +80,7 @@ footer li {
     text-align: center;
 }
 
+
 footer li a{
     background-color: grey;
     display: inline-block;
@@ -83,6 +88,12 @@ footer li a{
     width:39px;
     padding:5px;
     padding-top:7px;
+    transition: color 1s ease, transform 1s ease;
+}
+
+footer li a:hover {
+    color:#FD3F92;
+    transform: scale(1.5);   
 }
 
 h3 .icon-title {
@@ -93,4 +104,18 @@ h3 .icon-title {
 .mail {
     position: relative;
     bottom: 15px;}
+
+main li {
+    display: inline-block;
+    text-align: center;
+    width: 19%;
+    margin-top: 50px;
+    }
+
+.logo {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+    }
     
