@@ -1,5 +1,5 @@
 body{
-    background-image: url(Images/sandpaper.png);
+    background-color: #D3D3D3;
     margin: 0;
         
 }
@@ -64,15 +64,25 @@ p{
 }
 
 footer {
-    background-color: grey;
     color: white;
     text-decoration:none;
+    background-color: grey;
+    
 }
 
 footer li {
     display: inline-block;
-    width: 50%;
-    text-align: center; 
+    width: 33%;
+    text-align: center;
+}
+
+footer li a{
+    background-color: grey;
+    display: inline-block;
+    height:39px;
+    width:39px;
+    padding:5px;
+    padding-top:7px;
 }
 
 h3 .icon-title {
@@ -80,10 +90,7 @@ h3 .icon-title {
     margin-top: 30px;
 }
 
-h3 {
- font-family: sans-serif;
-    color: #FD3F92;
-}
-
-
+.mail {
+    position: relative;
+    bottom: 15px;}
     
