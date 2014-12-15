@@ -67,6 +67,7 @@ p{
 }
 
 footer {
+    padding-bottom: 300px;
     color: white;
     text-decoration:none;
     background-color: grey;
@@ -103,20 +104,17 @@ h3 .icon-title {
 
 .mail {
     position: relative;
-    bottom: 15px;}
+    bottom: 15px;
+}
 
 main li {
     display: inline-block;
     text-align: center;
     width: 19%;
     margin-top: 50px;
-    }
+}
 
-.logo {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    
-    
-    }
-    
+.logomicro {
+    width: 33,33%;
+    padding-left: 30%;}
+   
